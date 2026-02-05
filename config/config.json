@@ -2,28 +2,28 @@
     "_comment": "All values are MULTIPLIERS unless noted with 'Add' (additive) or 'Set' (direct set)",
 
     "___VOLUME_CONTROLS___": "===================",
-    "AmbientVolume": 1.0,
-    "HeadphonesMixerVolume": 1.5,
+    "AmbientVolume": 1.5,
+    "HeadphonesMixerVolume": 2.0,
     "DryVolume": 1.0,
     "EffectsReturnsGroupVolumeSet": 0,
 
     "___COMPRESSOR_SETTINGS___": "===================",
-    "CompressorGain": 1.0,
-    "CompressorThreshold": 1.0,
+    "CompressorGain": 1.5,
+    "CompressorThreshold": 1.2,
     "CompressorAttack": 1.0,
     "CompressorRelease": 1.0,
 
     "___COMPRESSOR_SEND_LEVELS___": "===================",
-    "AmbientCompressorSendLevelAdd": 0,
-    "ClientPlayerCompressorSendLevelSet": 0,
-    "PlayerCompressorSendLevel": 0,
-    "GunsCompressorSendLevelAdd": 0,
+    "AmbientCompressorSendLevelAdd": -5,
+    "ClientPlayerCompressorSendLevelSet": 6,
+    "PlayerCompressorSendLevel": 12,
+    "GunsCompressorSendLevelAdd": 12,
     "EffectsReturnsCompressorSendLevelSet": 0,
 
     "___EQ_SETTINGS___": "===================",
-    "EQBandGain": 2.0,
+    "EQBandGain": 1.75,
     "EQBandFrequency": 1.0,
-    "EQBandQ": 2.0,
+    "EQBandQ": 1.0,
 
     "___FILTER_SETTINGS___": "===================",
     "HighpassFreq": 1.0,
@@ -31,7 +31,7 @@
     "LowpassFreq": 1.0,
 
     "___DISTORTION___": "===================",
-    "DistortionMultiplier": 1.0,
+    "DistortionMultiplier": 0.75,
 
     "___SPATIAL___": "===================",
     "RolloffMultiplier": 1.00015
